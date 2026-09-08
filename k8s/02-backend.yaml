@@ -21,7 +21,7 @@ spec:
         workload: backend
       containers:
         - name: backend
-          image: <YOUR_ECR_REPO>/three-tier-backend:latest
+          image: 495219733157.dkr.ecr.ap-south-1.amazonaws.com/three-tier-backend
           ports:
             - containerPort: 5000
           envFrom:
