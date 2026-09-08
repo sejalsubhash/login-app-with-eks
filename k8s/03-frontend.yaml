@@ -21,7 +21,7 @@ spec:
         workload: frontend
       containers:
         - name: frontend
-          image: <YOUR_ECR_REPO>/three-tier-frontend:latest
+          image: 495219733157.dkr.ecr.ap-south-1.amazonaws.com/three-tier-frontend
           ports:
             - containerPort: 80
           resources:
